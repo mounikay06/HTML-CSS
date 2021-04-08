@@ -1,0 +1,54 @@
+html{
+    border: 8px solid pink;
+}
+body{
+    background-color: skyblue;
+    margin-left: 50px;
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+#firstname{
+    margin-top: 40px;
+    padding: 10px;
+}
+#middlename{
+    padding: 10px;
+}
+#lastname{
+    padding: 10px;
+}
+#phone{
+    padding: 10px;
+}
+#number{
+    padding: 10px;
+}
+#email{
+    padding: 10px;
+}
+#password{
+    padding: 10px;
+}
+#retypepassword{
+    padding: 10px;
+}
+.commonspace{
+    margin-top: 30px;
+}
+#address{
+    height: 95px;
+    width: 1200px;
+    padding-top: 5px;
+    padding-left: 10px
+}
+.size{
+    width: 1200px;
+    height: 45px;
+}
+#button{
+    background-color: green;
+    border: none;
+}

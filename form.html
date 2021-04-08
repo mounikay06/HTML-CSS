@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Styled-Form</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <hr>
+
+        <label for="firstname">Firstname:</label><br>
+        <input type="text" id="firstname" placeholder="Firstname" class="size"><br><br>
+        <label for="middlename" >Middlename:</label><br>
+        <input type="text" id="middlename" placeholder="Middlename" class="commonspace size"><br><br>
+        <label for="lastname">Lastname:</label><br>
+        <input type="text" id="lastname" placeholder="Lastname" class="commonspace size"><br>
+    
+
+
+        <label for="course">Course:</label>
+        <select name="course" id="course" class="commonspace">
+            <option value="Course">Course</option>
+        </select><br>
+
+        <form class="commonspace">
+            <label id="gender">Gender:</label><br>
+            <input type="radio" name="male" checked>Male  
+            <input type="radio" name="female">female 
+            <input type="radio" name="other">Other <br>
+        </form>
+
+        <label for="number">Phone:</label><br>
+        <input type="number" class="size" placeholder="+91" id="phone"><br>
+        <input type="number"  id="number" placeholder="Phone No" class="commonspace size"><br><br>
+        
+        <label for="address">Current Address:</label><br>
+        <input type="text" placeholder="Current Address" id="address"><br><br>
+
+        <label for="email"><b>Email:</b></label><br>
+        <input type="email" placeholder="Enter Email" id="email" class="commonspace size"><br><br>
+
+        <label for="password"><b>Password:</b></label><br>
+        <input type="password" placeholder="Enter Password" id="password" class="commonspace size"><br><br>
+
+        <label for="retypepassword"><b>Re-type password:</b></label><br>
+        <input type="password" placeholder="Retype Password" id="retypepassword" class="commonspace size"><br><br>
+        
+        <button type="submit" class="commonspace size" id ="button">Register</button>
+
+    </body>
+</html>
